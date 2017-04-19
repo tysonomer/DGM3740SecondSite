@@ -1,0 +1,429 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>The Gentleman's Hat Club</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js"></script>
+
+  
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        
+        <!--Vertical Slider-->
+		<script src="assets/js/jssor.slider-22.1.9.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+                                        jssor_1_slider_init = function() {
+
+                                            var jssor_1_options = {
+                                              $AutoPlay: true,
+                                              $DragOrientation: 2,
+                                              $PlayOrientation: 2,
+                                              $ArrowNavigatorOptions: {
+                                                $Class: $JssorArrowNavigator$
+                                              }
+                                            };
+
+                                            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                                            /*responsive code begin*/
+                                            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+                                            function ScaleSlider() {
+                                                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                                                if (refSize) {
+                                                    refSize = Math.min(refSize, 600);
+                                                    jssor_1_slider.$ScaleWidth(refSize);
+                                                }
+                                                else {
+                                                    window.setTimeout(ScaleSlider, 30);
+                                                }
+                                            }
+                                            ScaleSlider();
+                                            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                                            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                                            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                                            /*responsive code end*/
+                                        };
+        </script>
+
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo"></a></h1>
+<!--								<hr />-->
+								
+							</header>
+							<footer>
+								<a href="#banner" class="button circled scrolly">Begin</a>
+							</footer>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Hat's</a>
+									<ul>
+                                            <li><a href="#">Top Hat's</a></li>
+                                            <li><a href="#">Fedora's</a></li>
+                                            <li><a href="#">Fez's</a></li>
+                                            <li><a href="#">Karakul's</a></li>
+                                            <li><a href="#">Deerstalker's</a></li>
+                                            <li><a href="#">Gatsby Cap's</a></li>
+                                            <li><a href="#">Flat Cap's</a></li>
+                                            <li><a href="#">Bowler's</a></li>
+                                            <li><a href="#">Balmoral's</a></li>
+									</ul>
+								</li>
+								<li class="active"><a href="#">Monthly Hat Rack</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2><strong>The Gentleman's Hat Club</strong>.</h2>
+					</header>
+				</section>
+            
+<!--			 Carousel -->
+
+				<section class="carousel">
+					<div class="reel">
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Top Hat's</a></h3>
+							</header>
+							<p>A tall, flat-crowned, broad-brimmed hat, worn by men from the latter part of the 18th to the middle of the 20th century.<br><br></p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Fedora's</a></h3>
+							</header>
+							<p>A felt hat with a wide brim and indented crown, typically creased lengthwise down the crown and "pinched" near the front on both sides.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Fez's</a></h3>
+							</header>
+							<p>A felt headdress of two types: either in the shape of a truncated cone, or a short cylinder, both usually with a tassel attached to the top.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Karakul's</a></h3>
+							</header>
+							<p>A hat made from the fur of the Qaraqul breed of sheep. The hat is peaked and folds flat when taken off of the wearer's head.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Deerstalker's</a></h3>
+							</header>
+							<p>A cap that is typically worn in rural areas, often for hunting, especially deer stalking, commonly associated with Sherlock Holmes.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Gatsby Cap's</a></h3>
+							</header>
+							<p>A cap is that is rounder, fuller, and paneled with a button on top, and often with a button attaching the front to the brim.</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Flat Cap's</a></h3>
+							</header>
+							<p>A rounded cap with a small stiff brim in front, typically associated with older working class men.<br><br>
+							</p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Bowler's</a></h3>
+							</header>
+							<p>A hard felt hat with a rounded crown, often called "the hat that won the West".<br><br><br></p>
+						</article>
+
+						<article>
+							<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Balmoral's</a></h3>
+							</header>
+							<p>A traditional Scottish hat, taking the form of a knitted, soft wool cap with a flat crown.<br><br></p>
+						</article>
+
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						<a href="#" class="image featured"><img src="images/chandelier.jpg" alt="" /></a>
+						<header>
+							<h2><a href="#">Monthly Hat  Rack</a></h2>
+							<p>
+								Create a Personal Account, add Hats to your Rack, Receive Head-wear all year long.
+							</p>
+						</header>
+						
+						<footer>
+							<a href="#" class="button">Proceed to Your Custom Hat Rack</a>
+						</footer>
+					</article>
+
+				</div>
+
+			<!-- Features -->
+				<div class="wrapper style1">
+
+					<section id="features" class="container special">
+						<header>
+							<h2>New Additions</h2>
+							<p>Something new for the Hat lover in You.</p>
+						</header>
+						<div class="row">
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Flat Cap's</a></h3>
+								</header>
+								<p>
+									A rounded cap with a small stiff brim in front, typically associated with older working class men.
+								</p>
+							</article>
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Bowler's</a></h3>
+								</header>
+								<p>
+									A hard felt hat with a rounded crown, often called "the hat that won the West".
+								</p>
+							</article>
+							<article class="4u 12u(mobile) special">
+								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Balmoral's</a></h3>
+								</header>
+								<p>
+									A traditional Scottish hat, taking the form of a knitted, soft wool cap with a flat crown.
+								</p>
+							</article>
+						</div>
+           
+						
+						
+					</section>
+                        
+				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<!-- Tweets -->
+								<section class="4u 12u(mobile)">
+									<header>
+									    <h2 class="icon fa-twitter circled"></h2>
+									    <h2>Tweets</h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="tweet">
+												Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
+												<span class="timestamp">5 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												Hendrerit rutrum quisque.
+												<span class="timestamp">30 minutes ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
+												<span class="timestamp">3 hours ago</span>
+											</article>
+										</li>
+										<li>
+											<article class="tweet">
+												Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
+												<span class="timestamp">5 hours ago</span>
+												<footer>
+                                                    
+                                                </footer>
+											</article>
+										</li>
+									</ul>
+								</section>
+								
+
+
+							<!-- Contact Us -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa fa-phone circled"></h2>
+										<h2>Contact Us</h2>
+									</header>
+									<!-- Signup Form -->
+                                    <form id="signup-form" method="post" action="#">
+                                        <input type="email" name="email" id="email" placeholder="Email Address" />
+                                        <input type="submit" value="Sign Up" />
+                                    </form>
+								</section>
+
+							<!-- Photos -->
+								<section class="4u 12u(mobile)">
+									<header>
+										<h2 class="icon fa-camera circled"><h2>Motivation</h2></h2>
+									</header>
+									<div>
+                                         <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:640px;overflow:hidden;visibility:hidden;">
+                                        <!-- Loading Screen -->
+                                        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                                            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                                            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                                        </div>
+                                        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:650px;overflow:hidden;">
+                                            
+                                            <div>
+                                                <img data-u="image" src="images/pic10.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic11.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic12.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic13.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic14.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic15.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic16.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic17.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic18.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic19.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic20.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic21.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic22.jpg" />
+                                            </div>
+                                            <div>
+                                                <img data-u="image" src="images/pic23.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- Arrow Navigator -->
+                                        <span data-u="arrowleft" class="jssora08l" style="top:8px;left:8px;width:50px;height:50px;" data-autocenter="1"></span>
+                                        <span data-u="arrowright" class="jssora08r" style="bottom:8px;right:8px;width:50px;height:50px;" data-autocenter="1"></span>
+                                    </div>
+                                    <script type="text/javascript">jssor_1_slider_init();</script>
+									</div>
+								</section>
+
+						</div>
+						<hr />
+						<div class="row">
+							<div class="12u">
+
+				         <!-- Contact -->
+									<section class="contact">
+										<header>
+                         
+                         <!--	Search Bar					-->
+                                                <footer.search>
+                                                    <div class="wrap">
+                                                       <div class="search">
+                                                          <input type="text" class="button" placeholder="Search Hat's">
+
+                                                       </div>
+                                                    </div>
+                                                </footer.search>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+										</ul>
+										
+                                        </header>
+										
+									</section>
+									
+									
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>Copyright &copy; 2017  &bull; The Gentalmen's Hat Club &bull;  
+    <a class="tel" tabindex="-1" href="tel:(846) 876-9274">(846) 876-9274 &bull; </a>  All rights reserved.</li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
